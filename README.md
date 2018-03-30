@@ -16,6 +16,34 @@ After months of trial and error, finally booted SailfishOS.
  */
  ```
 
+### How to install ?
+
+1. Download [LOS 14.1](https://sourceforge.net/projects/loup-rom/files/latest/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/latest/download)
+3. Reboot to TWRP
+4. Perform a full wipe
+5. Copy both files to your phone
+6. Flash LOS 14.1
+7. Flash SailfishOS
+8. Reboot!
+
+### Changelog
+```
+- sailfishos-santoni-release-2.1.4.13-alpha-30032018:
+  * Alpha - Initial Release 
+```
+
+### Reporting Bugs
+
+Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
+Give as much detail as possible.
+You can connect to your device using telnet via usb:
+``` 
+telnet 192.168.2.15 2323 
+```
+or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
+
+**Logcat is located here `/usr/libexec/droid-hybris/system/bin/logcat`**
 
 ### Todo
 
@@ -41,29 +69,6 @@ After months of trial and error, finally booted SailfishOS.
 - [X] Screen Backlight
 - [X] Battery indicator
 - [ ] FM Radio
-
-### How to install ?
-
-1. Download [LOS 14.1](https://sourceforge.net/projects/loup-rom/files/latest/download)
-2. Download SailfishOS (Download link will be here)
-3. Copy both files to your phone
-4. Reboot to TWRP
-5. Flash LOS 14.1
-6. Flash SailfishOS
-7. Reboot!
-
-### Reporting Bugs
-
-Please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
-Give as much detail as possible.
-You can connect to your device using telnet via usb:
-``` 
-telnet 192.168.2.15 2323 
-```
-or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
-
-**Logcat is located here `/usr/libexec/droid-hybris/system/bin/logcat`**
-
 
 ### Sources
 
