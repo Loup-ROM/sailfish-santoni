@@ -37,6 +37,19 @@ After months of trial and error, finally booted SailfishOS.
 6. Flash SailfishOS
 7. Reboot!
 
+### Reporting Bugs
+
+Please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
+Give as much detail as possible.
+You can connect to your device using telnet via usb:
+``` 
+telnet 192.168.2.15 2323 
+```
+or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
+
+**Logcat is located here `/usr/libexec/droid-hybris/system/bin/logcat`**
+
+
 ### Sources
 
 - Kernel: [https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1](https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1)
