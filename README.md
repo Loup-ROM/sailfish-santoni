@@ -19,7 +19,7 @@ After months of trial and error, finally booted SailfishOS.
 ### How to install ?
 
 1. Download [LOS 14.1](https://sourceforge.net/projects/loup-rom/files/latest/download)
-2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/latest/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-30032018.zip/download)
 3. Reboot to TWRP
 4. Perform a full wipe
 5. Copy both files to your phone
