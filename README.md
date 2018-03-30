@@ -39,11 +39,11 @@ After months of trial and error, finally booted SailfishOS.
 
 ### Sources
 
-- Kernel: https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1
-- Device Tree: https://github.com/bitrvmpd/android_device_xiaomi_santoni/tree/hybris-14.1
-- Vendor Tree: https://github.com/bitrvmpd/android_vendor_xiaomi_santoni/tree/cm-14.1
+- Kernel: [https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1](https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1)
+- Device Tree: [https://github.com/bitrvmpd/android_device_xiaomi_santoni/tree/hybris-14.1](https://github.com/bitrvmpd/android_device_xiaomi_santoni/tree/hybris-14.1)
+- Vendor Tree: [https://github.com/bitrvmpd/android_vendor_xiaomi_santoni/tree/cm-14.1](https://github.com/bitrvmpd/android_vendor_xiaomi_santoni/tree/cm-14.1)
 
 - SailfishOS stuff:
-  * droid-config-santoni: https://github.com/bitrvmpd/droid-config-santoni
-  * droid-hal-version-santoni: https://github.com/bitrvmpd/droid-hal-version-santoni
-  * droid-hal-santoni: https://github.com/bitrvmpd/droid-hal-santoni
+  * droid-config-santoni: [https://github.com/bitrvmpd/droid-config-santoni](https://github.com/bitrvmpd/droid-config-santoni)
+  * droid-hal-version-santoni: [https://github.com/bitrvmpd/droid-hal-version-santoni](https://github.com/bitrvmpd/droid-hal-version-santoni)
+  * droid-hal-santoni: [https://github.com/bitrvmpd/droid-hal-santoni](https://github.com/bitrvmpd/droid-hal-santoni)
