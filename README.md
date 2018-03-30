@@ -33,7 +33,7 @@ After months of trial and error, finally booted SailfishOS.
 2. Download SailfishOS (Download link will be here)
 3. Copy both files to your phone
 4. Reboot to TWRP
-5. Flash LOS
+5. Flash LOS 14.1
 6. Flash SailfishOS
 7. Reboot!
 
