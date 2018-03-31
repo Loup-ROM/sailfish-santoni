@@ -70,6 +70,10 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Battery indicator
 - [ ] FM Radio
 
+### Troubleshooting (devs)
+
+If you have any error during the compilation/porting process [check this](https://bitrvmpd.github.io/sailfish-santoni/Troubleshooting)
+
 ### Sources
 
 - Kernel: [https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1](https://github.com/bitrvmpd/msm-3.18/tree/hybris-14.1)
