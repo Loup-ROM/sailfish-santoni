@@ -1,5 +1,5 @@
 # Troubleshooting SailfishOS
-Here are some stuff that I had need to look between a sea of IRC logs.
+Here are some stuff that I had need to look between a sea of IRC logs. Hope it helps.
 
 - When I tried to compile ngfd-plugin-droid-vibrator it gives an error
 
