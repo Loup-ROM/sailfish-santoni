@@ -27,11 +27,22 @@ After months of trial and error, finally booted SailfishOS.
 7. Flash SailfishOS
 8. Reboot!
 
+### <a name="webpirate"></a>Browser Partial Fix:
+- Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
+- Copy it to your device.
+- Enable Untrusted Sofwate in settings.
+- Navigate to your file (via Settings > Storage), open  and install it.
+- Download **WebPirate** from Storeman.
+###### Now you have access to more apps :D
+
 ### Changelog
 ```
+- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+  * microSD Access fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-30032018:
   * Alpha - Initial Release 
 ```
+###### XXXXXXXX means not released yet
 
 ### Reporting Bugs
 
@@ -49,7 +60,7 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 
 - [X] WLAN
 - [X] Display
-- [ ] Web Browser (crashes)
+- [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
 - [X] Audio
 - [ ] Calls
 - [X] SMS
@@ -84,3 +95,8 @@ If you have any error during the compilation/porting process [check this](https:
   * droid-config-santoni: [https://github.com/bitrvmpd/droid-config-santoni](https://github.com/bitrvmpd/droid-config-santoni)
   * droid-hal-version-santoni: [https://github.com/bitrvmpd/droid-hal-version-santoni](https://github.com/bitrvmpd/droid-hal-version-santoni)
   * droid-hal-santoni: [https://github.com/bitrvmpd/droid-hal-santoni](https://github.com/bitrvmpd/droid-hal-santoni)
+  
+  ### Credits
+  - [Piggz](https://github.com/piggz) (for his awesome port for mido)
+  - The Sailfish Community.
+  - The Halium Community.
