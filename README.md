@@ -96,7 +96,7 @@ If you have any error during the compilation/porting process [check this](https:
   * droid-hal-version-santoni: [https://github.com/bitrvmpd/droid-hal-version-santoni](https://github.com/bitrvmpd/droid-hal-version-santoni)
   * droid-hal-santoni: [https://github.com/bitrvmpd/droid-hal-santoni](https://github.com/bitrvmpd/droid-hal-santoni)
   
-  ### Credits
-  - [Piggz](https://github.com/piggz) (for his awesome port for mido)
-  - The Sailfish Community.
-  - The Halium Community.
+### Credits
+ - [Piggz](https://github.com/piggz) (for his awesome port for mido)
+ - The Sailfish Community.
+ - The Halium Community.
