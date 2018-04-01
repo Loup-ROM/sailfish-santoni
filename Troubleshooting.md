@@ -40,6 +40,7 @@ $ANDROID_ROOT/usr/share/kickstarts/$KS \
 ```
 
 - When I'm about to create the flashable .zip file, I execute this:
+
 ```
 sudo mic create fs --arch=$PORT_ARCH \
 --tokenmap=ARCH:$PORT_ARCH,RELEASE:$RELEASE,EXTRA_NAME:$EXTRA_NAME \
@@ -64,23 +65,33 @@ CONFIG_FW_LOADER_USER_HELPER_FALLBACK=y
 ```
 
 - **build_packages.sh** is not downloading any submodule, so the compilation fails.
+
 Edit this file
+
 ```
 rpm/dhd/helpers/utils.sh
+
 ```
+
 Replace this line
+
 ```
 git submodule update >>$LOG 2>&1|| die "pulling of updates failed"
+
 ```
+
 with this
+
 ```
 git submodule update --init --recursive >>$LOG 2>&1|| die "pulling of updates failed"
 ```
+
 rebuild the MW again.
 
 - ERROR: nothing provides gstreamer1.0-omx, gstreamer1.0-libav
 
 Derp error, remember to download and build the desired MW, like this:
+
 ```
 cd $ANDROID_ROOT/hybris/mw
 git clone https://github.com/sailfishos/gst-omx.git
@@ -102,12 +113,17 @@ rpm/dhd/helpers/build_packages.sh —mw=https://github.com/sailfishos/gst-libav.
 ```
 configure: error: invalid OpenMAX IL target, you must specify one of —with-omx-target={generic,rpi,bellagio}
 ```
+
 The patches for sailfishOS weren't being applied, to fix this i had to enforce the %prep stage in mb2.
+
 1. Comment out line 930 in /usr/bin/mb2:
+
 ```
 #BUILD_NOPREP=(--noprep)
+
 ```
 2. Also remove "--noprep" in line 1128
+
 ```
 This argument----
                 |
@@ -120,10 +136,10 @@ rpmbuild -bc --noprep --short-circuit --build-in-place --define "_sourcedir $(re
 Also, everytime you need to apply a patch in a package, do this to ensure it gets applied.
 
 
-
 - autogen.sh git not found
 
 Run this command to fix it 
+
 ```
 sb2 -t $VENDOR-$DEVICE-$PORT_ARCH -m sdk-install -R zypper in git
 ```
@@ -131,23 +147,29 @@ sb2 -t $VENDOR-$DEVICE-$PORT_ARCH -m sdk-install -R zypper in git
 - When building gstreamer, $ANDROID_ROOT/system/core/rootdir/init.rc doesn't contain "service minimedia" 
 
 The file you're looking for is located here: 
+
 ```
 frameworks/native/cmds/servicemanager/servicemanager.rc
 ```
 
 
 - If your devices uses 32 bits camera binaries. When building gstreamer, this command:
+
 ```
 rpm/dhd/helpers/pack_source_droidmedia-localbuild.sh $DROIDMEDIA_VERSION
 ```
+
 says "**Please build droidmedia as per HADK instructions**"
 
 For some reason it didn't created the 32 bit binaries even if it already has "BOARD_QTI_CAMERA_32BIT_ONLY := true" in any of the \*.mk files of your device tree. To fix it run:
+
 ```
 cd $ANDROID_ROOT
 echo DROIDMEDIA_32 := true >> external/droidmedia/env.mk
 ```
+
 Then try to compile it again with
+
 ```
 make -jXX libdroidmedia_32 minimediaservice minisfservice
 ```
