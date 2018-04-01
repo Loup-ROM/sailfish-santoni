@@ -39,6 +39,7 @@ After months of trial and error, finally booted SailfishOS.
 ```
 - sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
   * microSD Access fixed.
+  * Video playback fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-30032018:
   * Alpha - Initial Release 
 ```
@@ -62,6 +63,7 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Display
 - [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
 - [X] Audio
+- [ ] Video playback
 - [ ] Calls
 - [X] SMS
 - [ ] Bluetooth
