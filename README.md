@@ -40,6 +40,7 @@ After months of trial and error, finally booted SailfishOS.
 - sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
   * microSD Access fixed.
   * Video playback fixed.
+  * Accel, Proximity, Gyro fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-30032018:
   * Alpha - Initial Release 
 ```
