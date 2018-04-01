@@ -83,6 +83,9 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Screen Backlight
 - [X] Battery indicator
 - [ ] FM Radio
+- [ ] Mobile Data
+- [ ] Camera
+- [ ] VoLTE (not supported until sailfish v3)
 
 ### Troubleshooting (devs)
 
