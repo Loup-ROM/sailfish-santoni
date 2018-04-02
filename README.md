@@ -41,6 +41,8 @@ After months of trial and error, finally booted SailfishOS.
   * microSD Access fixed.
   * Video playback fixed.
   * Accel, Proximity, Gyro fixed.
+  * Camera fixed.
+  * Updated LineageOS 14.1 base.
 - sailfishos-santoni-release-2.1.4.13-alpha-30032018:
   * Alpha - Initial Release 
 ```
