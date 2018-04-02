@@ -38,6 +38,9 @@ After months of trial and error, finally booted SailfishOS.
 ### Changelog
 
 ```
+- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+  * Video recording fixed.
+  * Included camera-settings.
 - sailfishos-santoni-release-2.1.4.13-alpha-01042018:
   * microSD Access fixed.
   * Video playback fixed.
