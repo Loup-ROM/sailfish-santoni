@@ -16,10 +16,10 @@ After months of trial and error, finally booted SailfishOS.
  */
  ```
 
-### How to install ?
+### How to install (Updated download links are here):
 
-1. Download [LOS 14.1](https://sourceforge.net/projects/loup-rom/files/latest/download)
-2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-30032018.zip/download)
+1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-01042018.zip/download)
 3. Reboot to TWRP
 4. Perform a full wipe
 5. Copy both files to your phone
@@ -37,13 +37,13 @@ After months of trial and error, finally booted SailfishOS.
 
 ### Changelog
 ```
-- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+- sailfishos-santoni-release-2.1.4.13-alpha-01042018:
   * microSD Access fixed.
   * Video playback fixed.
   * Accel, Proximity, Gyro fixed.
-  * Camera fixed.
-  * Updated LineageOS 14.1 base.
-- sailfishos-santoni-release-2.1.4.13-alpha-30032018:
+  * Camera partially fixed, take pictures with frontal and back, record video limited to frontal only.
+  * Updated LineageOS 14.1 base, this fixes sensors!.
+- [sailfishos-santoni-release-2.1.4.13-alpha-30032018](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-30032018.zip/download):
   * Alpha - Initial Release 
 ```
 ###### XXXXXXXX means not released yet
@@ -66,15 +66,15 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Display
 - [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
 - [X] Audio
-- [ ] Video playback
+- [X] Video playback
 - [ ] Calls
 - [X] SMS
 - [ ] Bluetooth
-- [ ] MicroSD
+- [X] MicroSD
 - [ ] Sensors
   * [X] Ambient
-  * [ ] Accel
-  * [ ] Proximity
+  * [X] Accel
+  * [X] Proximity
   * [ ] Fingerprint
 - [X] Vibration motor / Haptic
 - [X] Buttons
@@ -85,9 +85,11 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Screen Backlight
 - [X] Battery indicator
 - [ ] FM Radio
-- [ ] Mobile Data
+- [X] Mobile Data
 - [ ] Camera
-  * [ ] Flashlight
+  * [X] Flashlight
+  * [X] Take Pictures
+  * [ ] Record video (Partial, only front camera)
 - [ ] VoLTE (not supported until sailfish v3)
 
 ### Troubleshooting (devs)
