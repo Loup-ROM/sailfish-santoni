@@ -36,6 +36,7 @@ After months of trial and error, finally booted SailfishOS.
 ###### Now you have access to more apps :D
 
 ### Changelog
+
 ```
 - sailfishos-santoni-release-2.1.4.13-alpha-01042018:
   * microSD Access fixed.
@@ -43,9 +44,10 @@ After months of trial and error, finally booted SailfishOS.
   * Accel, Proximity, Gyro fixed.
   * Camera partially fixed, take pictures with frontal and back, record video limited to frontal only.
   * Updated LineageOS 14.1 base, this fixes sensors!.
-- [sailfishos-santoni-release-2.1.4.13-alpha-30032018](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-30032018.zip/download):
+- sailfishos-santoni-release-2.1.4.13-alpha-30032018:
   * Alpha - Initial Release 
 ```
+
 ###### XXXXXXXX means not released yet
 
 ### Reporting Bugs
