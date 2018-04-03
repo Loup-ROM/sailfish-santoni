@@ -40,7 +40,8 @@ After months of trial and error, finally booted SailfishOS.
 ```
 - sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
   * Video recording fixed.
-  * Included camera-settings.
+  * ~~Included camera-settings~~ Removed for now
+  * Calls fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-01042018:
   * microSD Access fixed.
   * Video playback fixed.
