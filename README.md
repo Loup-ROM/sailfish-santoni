@@ -38,6 +38,8 @@ After months of trial and error, finally booted SailfishOS.
 ### Changelog
 
 ```
+- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+  * Bluetooth fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-04042018:
   * Video recording fixed.
   * Calls fixed.
