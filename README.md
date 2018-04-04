@@ -19,7 +19,7 @@ After months of trial and error, finally booted SailfishOS.
 ### How to install (Updated download links are here):
 
 1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
-2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-01042018.zip/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-04042018.zip/download)
 3. Reboot to TWRP
 4. Perform a full wipe
 5. Copy both files to your phone
@@ -38,7 +38,7 @@ After months of trial and error, finally booted SailfishOS.
 ### Changelog
 
 ```
-- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+- sailfishos-santoni-release-2.1.4.13-alpha-04042018:
   * Video recording fixed.
   * Calls fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-01042018:
@@ -72,7 +72,7 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
 - [X] Audio
 - [X] Video playback
-- [ ] Calls
+- [X] Calls
 - [X] SMS
 - [ ] Bluetooth
 - [X] MicroSD
@@ -80,7 +80,8 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
   * [X] Ambient
   * [X] Accel
   * [X] Proximity
-  * [ ] Fingerprint
+  * [ ] Magnetic
+  * [ ] Fingerprint (not supported until sailfish v3)
 - [X] Vibration motor / Haptic
 - [X] Buttons
   * [X] Vol+
@@ -91,10 +92,10 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 - [X] Battery indicator
 - [ ] FM Radio
 - [X] Mobile Data
-- [ ] Camera
+- [X] Camera
   * [X] Flashlight
   * [X] Take Pictures
-  * [ ] Record video (Partial, only front camera)
+  * [X] Record video
 - [ ] VoLTE (not supported until sailfish v3)
 
 ### Troubleshooting (devs)
