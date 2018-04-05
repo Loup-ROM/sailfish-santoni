@@ -71,7 +71,10 @@ You can connect to your device in Developer Mode using telnet via usb:
 telnet [Your USB IP] 2323 
 ```
 or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
-
+```
+ssh nemo@[Your phone's Wifi IP]
+>enter the password.
+```
 #### Get the logs:
 
 ```
@@ -80,10 +83,11 @@ dmesg > /home/nemo/dmesg.log
 journalctl > /home/nemo/journalctl.log
 ```
 
+Grab them using MTP Mode, they will be at your root of the internal storage.
+
 **Logcat is located here `/usr/libexec/droid-hybris/system/bin/logcat`**
 
 **Remember to change Default USB Mode in `Settings > USB > Default USB Mode` to "Always Ask"**
-
 
 ### Todo
 
@@ -135,5 +139,6 @@ If you have any error during the compilation/porting process [check this](https:
   
 ### Credits
  - [Piggz](https://github.com/piggz) (for his awesome port for mido)
+ - [Pi3Gey][https://github.com/Pi3Gey) (for helping me improve the bug reporting guide)
  - The Sailfish Community.
  - The Halium Community.
