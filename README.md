@@ -66,9 +66,9 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
 **Give as much detail as possible.**
 
-You can connect to your device using telnet via usb:
+You can connect to your device in Developer Mode using telnet via usb:
 ``` 
-telnet 192.168.2.15 2323 
+telnet [Your USB IP] 2323 
 ```
 or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
 
