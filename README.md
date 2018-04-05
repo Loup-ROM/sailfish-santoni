@@ -75,6 +75,11 @@ or setting up the ssh server in `Settings > Developer Tools > Remote Connection`
 ssh nemo@[Your phone's Wifi IP]
 >enter the password.
 ```
+Or directly in yout phone using the terminal app
+```
+devel-su
+>enter the password.
+```
 #### Get the logs:
 
 ```
