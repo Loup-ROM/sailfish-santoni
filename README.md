@@ -144,6 +144,6 @@ If you have any error during the compilation/porting process [check this](https:
   
 ### Credits
  - [Piggz](https://github.com/piggz) (for his awesome port for mido)
- - [Pi3Gey][https://github.com/Pi3Gey) (for helping me improve the bug reporting guide)
+ - [Pi3Gey](https://github.com/Pi3Gey) (for helping me improve the bug reporting guide)
  - The Sailfish Community.
  - The Halium Community.
