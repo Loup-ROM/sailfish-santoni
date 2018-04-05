@@ -33,6 +33,11 @@ After months of trial and error, finally booted SailfishOS.
 - Enable Untrusted Sofwate in settings.
 - Navigate to your file (via Settings > Storage), open  and install it.
 - Download **WebPirate** from Storeman.
+
+**Known Bug**
+Storeman stays in refreshing cache forever, and you can't install new apps.
+> Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff
+
 ###### Now you have access to more apps :D
 
 ### Changelog
@@ -59,14 +64,26 @@ After months of trial and error, finally booted SailfishOS.
 ### Reporting Bugs
 
 Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
-Give as much detail as possible.
+**Give as much detail as possible.**
+
 You can connect to your device using telnet via usb:
 ``` 
 telnet 192.168.2.15 2323 
 ```
 or setting up the ssh server in `Settings > Developer Tools > Remote Connection`.
 
+#### Get the logs:
+
+```
+/usr/libexec/droid-hybris/system/bin/logcat > /home/nemo/logcat.log
+dmesg > /home/nemo/dmesg.log
+journalctl > /home/nemo/journalctl.log
+```
+
 **Logcat is located here `/usr/libexec/droid-hybris/system/bin/logcat`**
+
+**Remember to change Default USB Mode in `Settings > USB > Default USB Mode` to "Always Ask"**
+
 
 ### Todo
 
