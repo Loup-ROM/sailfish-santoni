@@ -21,11 +21,12 @@ After months of trial and error, finally booted SailfishOS.
 1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
 2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-04042018.zip/download)
 3. Reboot to TWRP
-4. Perform a full wipe
-5. Copy both files to your phone
-6. Flash LOS 14.1
-7. Flash SailfishOS
-8. Reboot!
+4. Make sure /data and /cache are in **ext4** format. (f2fs is NOT supported and will never be).
+5. Perform a full wipe
+6. Copy both files to your phone
+7. Flash LOS 14.1
+8. Flash SailfishOS
+9. Reboot!
 
 ### <a name="webpirate"></a>Browser Partial Fix:
 - Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
