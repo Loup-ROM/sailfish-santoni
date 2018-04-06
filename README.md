@@ -25,7 +25,7 @@ After months of trial and error, finally booted SailfishOS.
 ### How to install (Updated download links are here):
 
 1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
-2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-alpha-04042018.zip/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-beta-06042018.zip/download)
 3. Reboot to TWRP
 4. Make sure /data and /cache are in **ext4** format. (f2fs is NOT supported and will never be).
 5. Perform a full wipe
@@ -52,10 +52,11 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 ### Changelog
 
 ```
-- sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+- sailfishos-santoni-release-2.1.4.13-beta-06042018:
   * Magnetic Sensor (was already) fixed. Tested with "Messwerk".
   * Bluetooth fixed.
   * FM Radio fixed.
+  * All features are working, we're in beta!.
 - sailfishos-santoni-release-2.1.4.13-alpha-04042018:
   * Video recording fixed.
   * Calls fixed.
@@ -113,13 +114,13 @@ Grab them using MTP Mode, they will be at your root of the internal storage.
 - [X] Video playback
 - [X] Calls
 - [X] SMS
-- [ ] Bluetooth
+- [X] Bluetooth
 - [X] MicroSD
 - [ ] Sensors
   * [X] Ambient
   * [X] Accel
   * [X] Proximity
-  * [ ] Magnetic
+  * [X] Magnetic
   * [ ] Fingerprint (not supported until sailfish v3)
 - [X] Vibration motor / Haptic
 - [X] Buttons
@@ -129,7 +130,7 @@ Grab them using MTP Mode, they will be at your root of the internal storage.
 - [X] Notification LED
 - [X] Screen Backlight
 - [X] Battery indicator
-- [ ] FM Radio
+- [X] FM Radio
 - [X] Mobile Data
 - [X] Camera
   * [X] Flashlight
