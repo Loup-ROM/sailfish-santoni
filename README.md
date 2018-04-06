@@ -1,8 +1,14 @@
 ## SailfishOS for Redmi 4X (santoni)
 
-After months of trial and error, finally booted SailfishOS.
+After months of trial and error, finally booted SailfishOS. 
 
-### Before we start, the classic disclaimer:
+> SailfishOS is a general purpose Linux distribution used commonly as a mobile operating system combining the Linux kernel for a particular hardware platform, the open-source Mer core stack of middleware, a proprietary UI contributed by Jolla or an open source UI, and other third-party components.
+
+**THIS IS NOT ANDROID**. it's *SailfishOS* a **Community Port**, what does it mean? = **No APK Support**.
+
+
+
+### The classic disclaimer:
 
 ```
  /*
