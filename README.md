@@ -44,6 +44,7 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 
 ```
 - sailfishos-santoni-release-2.1.4.13-alpha-XXXXXXXX:
+  * Magnetic (was already) fixed. Tested with "Messwerk".
   * Bluetooth fixed.
   * FM Radio fixed.
 - sailfishos-santoni-release-2.1.4.13-alpha-04042018:
