@@ -34,6 +34,8 @@ After months of trial and error, finally booted SailfishOS.
 8. Flash SailfishOS
 9. Reboot!
 
+If it's not clear: **For the sake of simplicity, I'll only support ext4 partitions while testing Sailfish. If you use f2fs, please understand is on your risk only.**
+
 ### <a name="webpirate"></a>Browser Partial Fix:
 - Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
 - Copy it to your device.
