@@ -74,7 +74,7 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 
 ### Reporting Bugs
 
-Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new?template=new-issue.md) attaching dmesg, logcat and systemctl logs.
+Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
 **Give as much detail as possible.**
 
 ### What's not working?
