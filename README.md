@@ -85,6 +85,7 @@ Only if the **Todo** list says a **feature is complete** and you faced a **bug**
 
 ### What's working?
 - Everything else.
+
 <!--
 - [X] WLAN
 - [X] Display
