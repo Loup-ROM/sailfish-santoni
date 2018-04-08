@@ -82,6 +82,7 @@ Only if the **Todo** list says a **feature is complete** and you faced a **bug**
 - Fingerprint (not supported until sailfish v3).
 - VoLTE (not supported until sailfish v3).
 - [Android APKs](#no-apk).
+- Audio on recorded videos are out of sync.
 
 ### What's working?
 - Everything else.
