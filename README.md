@@ -69,8 +69,6 @@ If it's not clear: **For the sake of simplicity, I'll only support ext4 partitio
 
 ###### XXXXXXXX means not released yet
 
----
-
 ### <a name="webpirate"></a>Browser Partial Fix:
 - Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
 - Copy it to your device.
@@ -83,7 +81,6 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 > Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff
 
 ###### Now you have access to more apps :D
----
 
 ### Reporting Bugs
 
