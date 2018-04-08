@@ -4,7 +4,7 @@ After months of trial and error, finally booted SailfishOS.
 
 > SailfishOS is a general purpose Linux distribution used commonly as a mobile operating system combining the Linux kernel for a particular hardware platform, the open-source Mer core stack of middleware, a proprietary UI contributed by Jolla or an open source UI, and other third-party components.
 
-**THIS IS NOT ANDROID**. it's *SailfishOS* a **Community Port**, what does it mean? = **No APK Support**.
+<a name="no-apk"></a>**THIS IS NOT ANDROID**. it's *SailfishOS* a **Community Port**, what does it mean? = **No APK Support**.
 
 
 
@@ -77,8 +77,15 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new?template=new-issue.md) attaching dmesg, logcat and systemctl logs.
 **Give as much detail as possible.**
 
-### Todo
+### What's not working?
+- Web Browser (crashes) - Use [WebPirate](#webpirate).
+- Fingerprint (not supported until sailfish v3).
+- VoLTE (not supported until sailfish v3).
+- [Android APKs](#no-apk).
 
+### What's working?
+- Everything else.
+<!--
 - [X] WLAN
 - [X] Display
 - [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
@@ -109,6 +116,7 @@ Only if the **Todo** list says a **feature is complete** and you faced a **bug**
   * [X] Take Pictures
   * [X] Record video
 - [ ] VoLTE (not supported until sailfish v3)
+-->
 
 ### Troubleshooting (devs)
 
