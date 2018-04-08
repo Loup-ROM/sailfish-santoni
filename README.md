@@ -86,39 +86,6 @@ Only if the **Todo** list says a **feature is complete** and you faced a **bug**
 ### What's working?
 - Everything else.
 
-<!--
-- [X] WLAN
-- [X] Display
-- [ ] Web Browser (crashes) - Use [WebPirate](#webpirate)
-- [X] Audio
-- [X] Video playback
-- [X] Calls
-- [X] SMS
-- [X] Bluetooth
-- [X] MicroSD
-- [ ] Sensors
-  * [X] Ambient
-  * [X] Accel
-  * [X] Proximity
-  * [X] Magnetic
-  * [ ] Fingerprint (not supported until sailfish v3)
-- [X] Vibration motor / Haptic
-- [X] Buttons
-  * [X] Vol+
-  * [X] Vol-
-  * [X] Power
-- [X] Notification LED
-- [X] Screen Backlight
-- [X] Battery indicator
-- [X] FM Radio
-- [X] Mobile Data
-- [X] Camera
-  * [X] Flashlight
-  * [X] Take Pictures
-  * [X] Record video
-- [ ] VoLTE (not supported until sailfish v3)
--->
-
 ### Troubleshooting (devs)
 
 If you have any error during the compilation/porting process [check this](https://bitrvmpd.github.io/sailfish-santoni/Troubleshooting)
