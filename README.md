@@ -22,6 +22,16 @@ After months of trial and error, finally booted SailfishOS.
  */
  ```
 
+### What's not working?
+- Web Browser (crashes) - Use [WebPirate](#webpirate).
+- Fingerprint (not supported until sailfish v3).
+- VoLTE (not supported until sailfish v3).
+- [Android APKs](#no-apk).
+- Audio on recorded videos are out of sync.
+
+### What's working?
+- Everything else.
+
 ### How to install (Updated download links are here):
 
 1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
@@ -35,19 +45,6 @@ After months of trial and error, finally booted SailfishOS.
 9. Reboot!
 
 If it's not clear: **For the sake of simplicity, I'll only support ext4 partitions while testing Sailfish. If you use f2fs, please understand is at your own risk.**
-
-### <a name="webpirate"></a>Browser Partial Fix:
-- Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
-- Copy it to your device.
-- Enable Untrusted Sofwate in settings.
-- Navigate to your file (via Settings > Storage), open  and install it.
-- Download **WebPirate** from Storeman.
-
-**Known Bug**
-Storeman stays in refreshing cache forever, and you can't install new apps.
-> Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff
-
-###### Now you have access to more apps :D
 
 ### Changelog
 
@@ -72,20 +69,26 @@ Storeman stays in refreshing cache forever, and you can't install new apps.
 
 ###### XXXXXXXX means not released yet
 
+---
+
+### <a name="webpirate"></a>Browser Partial Fix:
+- Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
+- Copy it to your device.
+- Enable Untrusted Sofwate in settings.
+- Navigate to your file (via Settings > Storage), open  and install it.
+- Download **WebPirate** from Storeman.
+
+**Known Bug**
+Storeman stays in refreshing cache forever, and you can't install new apps.
+> Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff
+
+###### Now you have access to more apps :D
+---
+
 ### Reporting Bugs
 
 Only if the **Todo** list says a **feature is complete** and you faced a **bug**, please open an [issue here](https://github.com/bitrvmpd/sailfish-santoni/issues/new) attaching dmesg, logcat and systemctl logs.
 **Give as much detail as possible.**
-
-### What's not working?
-- Web Browser (crashes) - Use [WebPirate](#webpirate).
-- Fingerprint (not supported until sailfish v3).
-- VoLTE (not supported until sailfish v3).
-- [Android APKs](#no-apk).
-- Audio on recorded videos are out of sync.
-
-### What's working?
-- Everything else.
 
 ### Troubleshooting (devs)
 
