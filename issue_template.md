@@ -65,7 +65,7 @@ SailfishOS build:
     ==========================================
     1. devel-su
     Enter the password you've created before.
-    2. /usr/libexec/droid-hybris/system/bin/logcat > 
+    2. /usr/libexec/droid-hybris/system/bin/logcat > /home/nemo/logcat.log
     Hit ctrl+c to exit.
     3. dmesg > /home/nemo/dmesg.log
     4. journalctl > /home/nemo/journalctl.log
