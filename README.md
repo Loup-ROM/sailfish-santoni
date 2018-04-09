@@ -37,7 +37,7 @@ After months of trial and error, finally booted SailfishOS.
 ### How to install (Updated download links are here):
 
 1. Download [LOS 14.1](https://sourceforge.net/projects/sailfishos-santoni/files/Loup-ROM-v7.1.2-Sailfish/lineage-14.1-20180401-UNOFFICIAL-santoni.zip/download)
-2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-beta-06042018.zip/download)
+2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-beta-09042018.zip/download)
 3. Reboot to TWRP
 4. Make sure /data and /cache are in **ext4** format. (f2fs is NOT supported and will never be).
 5. Perform a full wipe
