@@ -51,7 +51,7 @@ If it's not clear: **For the sake of simplicity, I'll only support ext4 partitio
 ### Changelog
 
 ```
-- sailfishos-santoni-release-2.1.4.13-beta-XXXXXXXX:
+- sailfishos-santoni-release-2.1.4.13-beta-09042018:
   * Web Browser fixed.
 - sailfishos-santoni-release-2.1.4.13-beta-06042018:
   * Magnetic Sensor (was already) fixed. Tested with "Messwerk".
