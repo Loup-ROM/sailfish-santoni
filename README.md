@@ -23,7 +23,6 @@ After months of trial and error, finally booted SailfishOS.
  ```
 
 ### What's not working?
-- Web Browser (crashes) - Use [WebPirate](#webpirate).
 - Fingerprint (not supported until sailfish v3).
 - VoLTE (not supported until sailfish v3).
 - [Android APKs](#no-apk).
@@ -31,6 +30,9 @@ After months of trial and error, finally booted SailfishOS.
 
 ### What's working?
 - Everything else.
+
+### The Jolla Store is empty! I want apps!
+- Use [Storeman](#storeman).
 
 ### How to install (Updated download links are here):
 
@@ -49,6 +51,8 @@ If it's not clear: **For the sake of simplicity, I'll only support ext4 partitio
 ### Changelog
 
 ```
+- sailfishos-santoni-release-2.1.4.13-beta-XXXXXXXX:
+  * Web Browser fixed.
 - sailfishos-santoni-release-2.1.4.13-beta-06042018:
   * Magnetic Sensor (was already) fixed. Tested with "Messwerk".
   * Bluetooth fixed.
@@ -69,18 +73,15 @@ If it's not clear: **For the sake of simplicity, I'll only support ext4 partitio
 
 ###### XXXXXXXX means not released yet
 
-### <a name="webpirate"></a>Browser Partial Fix:
-- Install Storeman [download it here](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
-- Copy it to your device.
-- Enable Untrusted Sofwate in settings.
-- Navigate to your file (via Settings > Storage), open  and install it.
-- Download **WebPirate** from Storeman.
+### <a name="storeman"></a>Installing Storeman:
+- [Download Storeman](https://openrepos.net/sites/default/files/packages/6416/harbour-storeman-0.0.21-2.armv7hl.rpm)
+- Enable Untrusted Software in Settings.
+- Navigate to your file (via Settings > Storage), open and install it.
+- Download Apps!
 
 **Known Bug**
-Storeman stays in refreshing cache forever, and you can't install new apps.
-> Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff
-
-###### Now you have access to more apps :D
+Storeman stays in "Refreshing Cache" forever, and you can't install new apps.
+> Let it refresh for 3 min. then close the app (From recents too!). Reopen it and you'll be able to download stuff.
 
 ### Reporting Bugs
 
