@@ -40,7 +40,7 @@ After months of trial and error, finally booted SailfishOS.
 2. Download [SailfishOS](https://sourceforge.net/projects/sailfishos-santoni/files/sailfishos-santoni-release-2.1.4.13-beta-09042018.zip/download)
 3. Reboot to TWRP
 4. Make sure /data and /cache are in **ext4** format. (f2fs is NOT supported and will never be).
-5. Perform a full wipe
+5. Perform a Factory Reset
 6. Copy both files to your phone
 7. Flash LOS 14.1
 8. Flash SailfishOS
