@@ -1,3 +1,5 @@
+<!-- PLEASE FOLLOW THE TEMPLATE -->
+
 <!--
     Before you create this issue,
     Have you checked if your problem 
