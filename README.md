@@ -46,6 +46,8 @@ After months of trial and error, finally booted SailfishOS.
 8. Flash SailfishOS
 9. Reboot!
 
+Notes: **For those having error 7: downgrade to TWRP 3.2.2-0 (backup your data before the downgrade, you'll need to format data/internal storage before being able to flash sailfish successfully)**
+
 If it's not clear: **For the sake of simplicity, I'll only support ext4 partitions while testing Sailfish. If you use f2fs, please understand is at your own risk.**
 
 ### Changelog
